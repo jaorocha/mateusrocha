@@ -25,6 +25,7 @@ header{
     margin: 0 auto;
     align-items: center;
     margin-right: 50px;
+
 }
 
 #logoli{
@@ -33,20 +34,20 @@ header{
 
 }
 
-section {
+/* section {
   height: auto;
 
 
-}
+} */
 
-#logoany{
+/* #logoany{
     width: 110px;
     cursor: pointer;
     margin: 10px 0px 10px 80px;
     box-shadow:3px 3px 10px 3px #5e5b5e;
     border-radius: 50%;
 
-}
+} */
 
 header ul li + li{
     margin-left: 20px;
@@ -76,24 +77,25 @@ header a:hover{
 }
 
 #page-title{
-    font-size: 50px;
     margin: 0 auto;
     padding: 30px;
     text-align: center;
-    font-family: "Kalam", Arial, Helvetica, sans-serif;
-    color: #c96dad;
-    text-shadow:5px 3px 3px #efc5f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fdfeff;
+    text-shadow: 2px 2px 2px #fff;
+
 
 }
 
-.container{
+/* .container{
     width: 70%;
     margin: 0 auto;
     height: auto;
     display: flex;
     padding-top: 15px;
 
-}
+} */
 .cognito {
     width: 70%;
     margin: 0 auto;
@@ -135,8 +137,7 @@ width: 100%;
 
 }
 
-
-footer {
+/* footer {
     background-image: linear-gradient(to bottom, #ffff, #efc5f3);
     padding: 20px;
     text-align: center;
@@ -156,15 +157,19 @@ footer small {
     display: block;
     font-size: 80%;
     padding-top: 5px;
-}
+} */
 
-@media screen and (max-width: 600px) {
-    header {
+ @media screen and (max-width: 600px) {
+    .teste {
       width: auto;
       height: auto;
-      display: block;
+      display: block !important;
+      margin: 0 auto;
     }
-    .menu {
+
+
+}
+   /* .menu {
 
         list-style: none;
         display: block;
@@ -177,9 +182,9 @@ footer small {
 
     header ul li{
         margin-bottom:  20px;
-    }
+    } */
 
-    #logoany {
+    /* #logoany {
         display: block;
         text-align: center;
         margin: 0 auto;
@@ -206,4 +211,4 @@ footer small {
 
 .cognitoscript {
     width: 70% !important;
-}
+} */
