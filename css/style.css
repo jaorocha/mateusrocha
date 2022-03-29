@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to bottom, #efc5f3, #ffff, #efc5f3);
+    background-image:#fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,7 +43,7 @@ section {
     width: 110px;
     cursor: pointer;
     margin: 10px 0px 10px 80px;
-    box-shadow:3px 3px 10px 3px #ce45f8;
+    box-shadow:3px 3px 10px 3px #5e5b5e;
     border-radius: 50%;
 
 }
