@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    font-family: "Futura PT",sans-serif!important;;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #efc5f3, #ffff, #efc5f3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  
+     
+}
+.menu {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#logoli{
+    width: 40px;
+    cursor: pointer;
+
+}
+
+section {
+  height: auto;
+
+
+}
+
+#logoany{
+    width: 110px;
+    cursor: pointer;
+    margin: 10px 0px 10px 80px;
+    box-shadow:3px 3px 10px 3px #ce45f8;
+    border-radius: 50%;
+
+}
+
+header ul li + li{
+    margin-left: 20px;
+   
+}
+
+header a {
+    color: #9c2d7b;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+header a:hover{
+    color: #fd68d0;
+}
+
+.ftcentro{
+    display: block;
+    width: auto;
+    text-align: center;
+
+}
+
+#imgcentral{
+    width: 70%;
+    
+}
+
+#page-title{
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family: "Kalam", Arial, Helvetica, sans-serif;
+    color: #c96dad;
+    text-shadow:5px 3px 3px #efc5f3;
+
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    padding-top: 15px;
+
+}
+.cognito {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color:#c4038a;
+    font-size: 18px;
+
+}
+.cognito h2 {
+    margin-bottom: 10px;
+    color:#c4038a;
+    font-size: 24px;
+} 
+
+.cognito p{
+    font-size: 14px;
+    color: #646264;
+} 
+.cognitoscript {
+width: 100%;
+}
+.coluna {
+    width: 33.3%;
+    padding: 8px;
+    font-family: "Futura PT",sans-serif!important;;
+
+  }
+
+ 
+.coluna h3 {
+    margin-bottom: 10px;
+    color:#c4038a;
+}
+.coluna p {  
+    font-size: 14px;
+    color: #646264;
+
+
+}
+
+
+footer {
+    background-image: linear-gradient(to bottom, #ffff, #efc5f3);
+    padding: 20px;
+    text-align: center;
+    color: #c4038a;
+    height: 80px;
+    font-weight: bold;
+    font-size: 14px;
+      
+  }
+
+footer p {
+    margin: 10px;
+    font-size: 0.8rem;
+   
+}  
+footer small {
+    display: block;
+    font-size: 80%;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+      width: auto;
+      height: auto;
+      display: block;
+    }
+    .menu {
+
+        list-style: none;
+        display: block;
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    header ul li{
+        margin-bottom:  20px;
+    }
+
+    #logoany {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+        
+    }
+  }
+
+  .cog-heading {
+    display: none !important;
+  }
+  .cog-branding__powered {
+    display: none !important;
+ }
+
+.cog-abuse  {
+    display: none !important;
+
+}
+.cog-branding--minimal, .cog-abuse {
+    display: none !important;
+
+}
+
+.cognitoscript {
+    width: 70% !important;
+}
