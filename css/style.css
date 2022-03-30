@@ -9,7 +9,7 @@ body{
     font-family: "Futura PT",sans-serif!important;;
 }
 
-header{
+/* header{
     background-image:#fff;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ header{
     width: 100%;
   
      
-}
+} */
 .menu {
     list-style: none;
     display: flex;
@@ -159,6 +159,12 @@ footer small {
     padding-top: 5px;
 } */
 
+@media screen and (min-width: 768px){
+    .img__logo {
+        width: 10%;
+    }
+}
+
  @media screen and (max-width: 600px) {
     .teste {
       width: auto;
@@ -166,8 +172,6 @@ footer small {
       display: block !important;
       margin: 0 auto;
     }
-
-
 }
    /* .menu {
 
